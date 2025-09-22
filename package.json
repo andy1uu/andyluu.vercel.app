@@ -14,7 +14,7 @@
     "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0",
     "axios": "^1.12.2",
-    "framer-motion": "^12.23.15",
+    "framer-motion": "^12.23.16",
     "limiter": "^3.0.0",
     "mongodb": "^6.20.0",
     "next": "^15.5.3",
