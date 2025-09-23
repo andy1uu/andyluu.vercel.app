@@ -1,29 +1,24 @@
 dependencies:
-  - changed-files:
-      - package.json
-      - yarn.lock
+  - package.json
+  - yarn.lock
 
 frontend:
-  - changed-files:
-      - "src/**/*.{ts,tsx}"
-      - "public/**/*"
-      - "style/**/*.{css,scss}"
-      - "lib/**/*.{ts,tsx}"
+  - src/**/*.{ts,tsx}
+  - public/**/*
+  - style/**/*.{css,scss}
+  - lib/**/*.{ts,tsx}
 
 config:
-  - changed-files:
-      - "*.config.js"
-      - "*.config.mjs"
-      - "tsconfig.json"
-      - ".prettierrc"
-      - ".yarnrc.yml"
-      - ".gitignore"
+  - "*.config.js"
+  - "*.config.mjs"
+  - tsconfig.json
+  - .prettierrc
+  - .yarnrc.yml
+  - .gitignore
 
 github-actions:
-  - changed-files:
-      - ".github/**/*"
+  - .github/**/*
 
 docs:
-  - changed-files:
-      - "**/*.md"
-      - "README.md"
+  - "**/*.md"
+  - README.md
