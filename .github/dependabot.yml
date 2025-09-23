@@ -12,8 +12,6 @@ updates:
       interval: "daily"
     assignees:
       - "andy1uu"
-    reviewers:
-      - "andy1uu"
     target-branch: "develop"
     commit-message:
       prefix: "[Yarn Package Update]: "
@@ -24,8 +22,6 @@ updates:
     schedule:
       interval: "daily"
     assignees:
-      - "andy1uu"
-    reviewers:
       - "andy1uu"
     target-branch: "develop"
     commit-message:

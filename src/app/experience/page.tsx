@@ -17,7 +17,8 @@ const Experience = async () => {
   const experiences: Experience[] = await getData();
 
   return (
-    <section className="Experience-container flex w-full flex-col gap-4 items-center justify-center bg-light p-8 dark:bg-dark">
+    <section className="Experience flex flex-grow">
+      <div className="Experience-container flex flex-col px-16 pt-16 w-full gap-4">
       {experiences.map((experience) => (
         <ExperienceCard
           key={experience._id.toString()}
@@ -30,6 +31,7 @@ const Experience = async () => {
           skills={experience.skills}
         />
       ))}
+      </div>
     </section>
   );
 };

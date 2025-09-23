@@ -40,9 +40,9 @@ const navBarLinks = [
     icon: <MdCode size={iconSize} className="my-auto" />,
   },
   {
-    keyProp: "shinies",
+    keyProp: "pokemon",
     label: "Shiny Pokemon",
-    link: "/shinies",
+    link: "/pokemon",
     icon: <MdCatchingPokemon size={iconSize} className="my-auto" />,
   },
   {
@@ -61,7 +61,7 @@ const navBarLinks = [
 
 const NavBar = () => (
   <div className="NavBar fixed flex bg-primary top-1/2 -translate-y-1/2 rounded-full left-1">
-    <div className="flex flex-col gap-2 p-2 my-auto">
+    <div className="flex flex-col gap-2 p-1 my-auto">
       {navBarLinks.map((navBarLink) => (
         <NavBarLink
           key={navBarLink.keyProp}

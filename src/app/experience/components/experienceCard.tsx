@@ -14,7 +14,7 @@ const ExperienceCard: React.FC<Experience> = ({
   <div
     className="flex flex-col md:flex-row items-center shadow-md
     shadow-primary text-dark dark:text-light 
-     w-full lg:w-4/5 xl:w-3/5 mx-auto h-auto rounded-xl 
+      w-9/10 mx-auto h-auto rounded-xl 
     transition-all ease-in-out duration-500 p-4 gap-2 border-primary border">
     <img
       className="w-16 rounded-md mr-auto md:mr-0 md:mb-auto"
