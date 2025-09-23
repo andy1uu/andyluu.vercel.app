@@ -17,7 +17,8 @@ const Education = async () => {
   const education: Education[] = await getData();
 
   return (
-    <section className="Education-container flex w-full flex-col gap-4 items-center justify-center bg-light p-8 dark:bg-dark">
+    <section className="Education flex flex-grow">
+      <div className="Education-container flex flex-col px-16 pt-16 w-full gap-4">
       {education.map((edu) => (
         <EducationCard
           key={edu._id.toString()}
@@ -32,6 +33,7 @@ const Education = async () => {
           startTime={edu.startTime}
         />
       ))}
+      </div>
     </section>
   );
 };

@@ -4352,6 +4352,7 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
 "@typescript-eslint/eslint-plugin@npm:^8.44.1":
   version: 8.44.1
   resolution: "@typescript-eslint/eslint-plugin@npm:8.44.1"
@@ -4374,6 +4375,9 @@ __metadata:
   linkType: hard
 
 "@typescript-eslint/parser@npm:8.44.0, @typescript-eslint/parser@npm:^8.44.0":
+=======
+"@typescript-eslint/parser@npm:8.44.0":
+>>>>>>> develop
   version: 8.44.0
   resolution: "@typescript-eslint/parser@npm:8.44.0"
   dependencies:
@@ -4402,6 +4406,22 @@ __metadata:
     eslint: ^8.57.0 || ^9.0.0
     typescript: ">=4.8.4 <6.0.0"
   checksum: 10c0/ca13ff505e9253aee761741f96714cd65a296bbfcac961efbbf7a909ff3d180b2142a23db0a2a5e50b928fa56586528b7e47ba6301089dd850945018dbf2ef50
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/parser@npm:^8.44.1":
+  version: 8.44.1
+  resolution: "@typescript-eslint/parser@npm:8.44.1"
+  dependencies:
+    "@typescript-eslint/scope-manager": "npm:8.44.1"
+    "@typescript-eslint/types": "npm:8.44.1"
+    "@typescript-eslint/typescript-estree": "npm:8.44.1"
+    "@typescript-eslint/visitor-keys": "npm:8.44.1"
+    debug: "npm:^4.3.4"
+  peerDependencies:
+    eslint: ^8.57.0 || ^9.0.0
+    typescript: ">=4.8.4 <6.0.0"
+  checksum: 10c0/278d7f6a8a686fade0cff372faabb5e114f98ce4032bd991e8905622c720f3a4867b99f7a07897aa2e26311efd8cbb84669059ab57ac99c644b9fbae7564b251
   languageName: node
   linkType: hard
 
@@ -5112,6 +5132,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"axios-cache-interceptor@npm:^1.8.3":
+  version: 1.8.3
+  resolution: "axios-cache-interceptor@npm:1.8.3"
+  dependencies:
+    cache-parser: "npm:1.2.5"
+    fast-defer: "npm:1.1.8"
+    object-code: "npm:1.3.3"
+  peerDependencies:
+    axios: ^1
+  checksum: 10c0/a106b3525d54bab6658e4b7a77c3b963296d0c7c24863800f9b04d671c2173545f53b9d7369bb89a03506c38310ade048cdd7025a9e00422ab2e4826ac39b85b
+  languageName: node
+  linkType: hard
+
 "axios@npm:^1.12.2":
   version: 1.12.2
   resolution: "axios@npm:1.12.2"
@@ -5183,6 +5216,13 @@ __metadata:
   version: 6.10.4
   resolution: "bson@npm:6.10.4"
   checksum: 10c0/6c6819ce642516901349f42c5d9d131d5a4e84352a3859c814d4abf6b2b9249e3685b57fc4cf7b5737fb5c71252f65900a41826c1429815a93e43f0f5bb3c173
+  languageName: node
+  linkType: hard
+
+"cache-parser@npm:1.2.5":
+  version: 1.2.5
+  resolution: "cache-parser@npm:1.2.5"
+  checksum: 10c0/08ef9b465a0af87565f12448a2c250934f4c02f1247a9c519759139a0e2db5584f45ffa8401ce721f7e5a8f8ba1faf3ddc1e99c29e5e93aba01f7e1f4ee8ef9a
   languageName: node
   linkType: hard
 
@@ -6000,6 +6040,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fast-defer@npm:1.1.8":
+  version: 1.1.8
+  resolution: "fast-defer@npm:1.1.8"
+  checksum: 10c0/4537cf81ce3e1505adba01dfe232231271162c8365427b360e0e86c8e4bf65f08d9e6ced1bd063fbafb48376f2ff152d1cad3cb25237126492921a15ce203e88
+  languageName: node
+  linkType: hard
+
 "fast-diff@npm:^1.1.2":
   version: 1.3.0
   resolution: "fast-diff@npm:1.3.0"
@@ -6161,11 +6208,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^12.23.16":
-  version: 12.23.16
-  resolution: "framer-motion@npm:12.23.16"
+"framer-motion@npm:^12.23.18":
+  version: 12.23.18
+  resolution: "framer-motion@npm:12.23.18"
   dependencies:
-    motion-dom: "npm:^12.23.12"
+    motion-dom: "npm:^12.23.18"
     motion-utils: "npm:^12.23.6"
     tslib: "npm:^2.4.0"
   peerDependencies:
@@ -6179,7 +6226,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 10c0/a154b614581f9e4d359a16cd590da7331e27857ac099c83908b5ec2b6bd7092d12192d989ecf17029355e64290d119e508342b5a6b0db69462df36727c674781
+  checksum: 10c0/059fed39a1f7c1d277ac9ab94da093e0498d59b29de1a2ae5a040d080b644f34bc8862314d45676dfb93adeae01b6c5c84309b2799075b8d2c028ae1d493808d
   languageName: node
   linkType: hard
 
@@ -6195,25 +6242,32 @@ __metadata:
     "@types/node": "npm:^24.5.2"
     "@types/react": "npm:^19.1.13"
     "@types/react-dom": "npm:^19.1.9"
+<<<<<<< HEAD
     "@typescript-eslint/eslint-plugin": "npm:^8.44.1"
     "@typescript-eslint/parser": "npm:^8.44.0"
+=======
+    "@typescript-eslint/eslint-plugin": "npm:^8.44.0"
+    "@typescript-eslint/parser": "npm:^8.44.1"
+>>>>>>> develop
     "@vercel/analytics": "npm:^1.5.0"
     "@vercel/speed-insights": "npm:^1.2.0"
     autoprefixer: "npm:^10.4.21"
     axios: "npm:^1.12.2"
+    axios-cache-interceptor: "npm:^1.8.3"
     eslint: "npm:^9.35.0"
     eslint-config-next: "npm:15.5.3"
     eslint-config-prettier: "npm:^10.1.8"
     eslint-plugin-prettier: "npm:^5.5.4"
     eslint-plugin-react: "npm:^7.37.5"
     eslint-plugin-tailwindcss: "npm:^3.18.2"
-    framer-motion: "npm:^12.23.16"
+    framer-motion: "npm:^12.23.18"
     globals: "npm:^16.4.0"
-    jiti: "npm:^2.5.1"
+    jiti: "npm:^2.6.0"
     limiter: "npm:^3.0.0"
     mongodb: "npm:^6.20.0"
     next: "npm:^15.5.3"
     next-themes: "npm:^0.4.6"
+    pokenode-ts: "npm:^1.20.0"
     postcss: "npm:^8.5.6"
     prettier: "npm:^3.6.2"
     prettier-plugin-tailwindcss: "npm:^0.6.14"
@@ -6771,6 +6825,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jiti@npm:^2.6.0":
+  version: 2.6.0
+  resolution: "jiti@npm:2.6.0"
+  bin:
+    jiti: lib/jiti-cli.mjs
+  checksum: 10c0/5002ccecdb02e85413e5bfe3819a5ac458dcce12b358c556b6cf17b5b6cbedd36514f6a67d4aa2b290caa2b933406502a1985d0bfee784ece788e90a0392d534
+  languageName: node
+  linkType: hard
+
 "js-tokens@npm:^3.0.0 || ^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0"
@@ -7162,12 +7225,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"motion-dom@npm:^12.23.12":
-  version: 12.23.12
-  resolution: "motion-dom@npm:12.23.12"
+"motion-dom@npm:^12.23.18":
+  version: 12.23.18
+  resolution: "motion-dom@npm:12.23.18"
   dependencies:
     motion-utils: "npm:^12.23.6"
-  checksum: 10c0/1b6a4b86c1aed5b5da7b8a5d1f8310ad169125235bdc1953b8c41cf9f4e2c460ee90bb48ffdae54daecb8db1d7006566ceb5f5c9ccdc82606d548c527cb2631e
+  checksum: 10c0/eea2db02f222deb1fb615d8e3c7d9ec3ac970fe27326e3bdf81d92ff0227fab7b7219170aaec0c514ff2a5ceb03c40244e7d7144c3fcac33bed648dd644bfde5
   languageName: node
   linkType: hard
 
@@ -7297,6 +7360,13 @@ __metadata:
   version: 4.1.1
   resolution: "object-assign@npm:4.1.1"
   checksum: 10c0/1f4df9945120325d041ccf7b86f31e8bcc14e73d29171e37a7903050e96b81323784ec59f93f102ec635bcf6fa8034ba3ea0a8c7e69fa202b87ae3b6cec5a414
+  languageName: node
+  linkType: hard
+
+"object-code@npm:1.3.3":
+  version: 1.3.3
+  resolution: "object-code@npm:1.3.3"
+  checksum: 10c0/804650eb9b7f23f612c5ba7afbfccc0406f622d701491a690d0492f6e01252096cfba85186fd39883fda6b0e04d623aa8d9485395830223af2395df32d55a75e
   languageName: node
   linkType: hard
 
@@ -7466,6 +7536,16 @@ __metadata:
   version: 4.0.3
   resolution: "picomatch@npm:4.0.3"
   checksum: 10c0/9582c951e95eebee5434f59e426cddd228a7b97a0161a375aed4be244bd3fe8e3a31b846808ea14ef2c8a2527a6eeab7b3946a67d5979e81694654f939473ae2
+  languageName: node
+  linkType: hard
+
+"pokenode-ts@npm:^1.20.0":
+  version: 1.20.0
+  resolution: "pokenode-ts@npm:1.20.0"
+  peerDependencies:
+    axios: ^1.4.0
+    axios-cache-interceptor: ^1.2.0
+  checksum: 10c0/3281aa6a01906bff3640f02cdd088e4edb9a5c61cdb3f82be80b0997843667d57e523c131ce00709625743159ee913cecd43c26a07cf36c6954ba7973e58f62f
   languageName: node
   linkType: hard
 

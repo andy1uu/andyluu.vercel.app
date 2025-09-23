@@ -7,14 +7,23 @@ version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
+    open-pull-requests-limit: 25
     schedule:
       interval: "daily"
     assignees:
       - "andy1uu"
-    reviewers:
+    target-branch: "develop"
+    commit-message:
+      prefix: "[Yarn Package Update]: "
+      include: "scope"
+  - package-ecosystem: "github-actions" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    open-pull-requests-limit: 25
+    schedule:
+      interval: "daily"
+    assignees:
       - "andy1uu"
     target-branch: "develop"
     commit-message:
-      prefix: "[Yarn Package Update]:"
+      prefix: "[Github Actions Update]: "
       include: "scope"
-    open-pull-requests-limit: 5
