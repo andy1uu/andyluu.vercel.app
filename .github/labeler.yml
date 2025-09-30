@@ -1,24 +1,14 @@
 dependencies:
-  - "package.json"
-  - "yarn.lock"
+  - any: ["package.json", "yarn.lock"]
 
 frontend:
-  - "src/**/*.{ts,tsx}"
-  - "public/**/*"
-  - "style/**/*.{css,scss}"
-  - "lib/**/*.{ts,tsx}"
+  - any: ["src/**/*.{ts,tsx}", "public/**/*", "style/**/*.{css,scss}", "lib/**/*.{ts,tsx}"]
 
 config:
-  - "*.config.js"
-  - "*.config.mjs"
-  - "tsconfig.json"
-  - ".prettierrc"
-  - ".yarnrc.yml"
-  - ".gitignore"
+  - any: ["*.config.js", "*.config.mjs", "tsconfig.json", ".prettierrc", ".yarnrc.yml", ".gitignore"]
 
 github-actions:
-  - ".github/**/*"
+  - any: [".github/**/*"]
 
 docs:
-  - "**/*.md"
-  - "README.md"
+  - any: ["**/*.md", "README.md"]
