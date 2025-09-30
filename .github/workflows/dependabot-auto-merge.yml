@@ -1,5 +1,6 @@
-name: Dependabot auto-merge
-on: pull_request
+name: Dependabot Auto-Merge
+
+on: pull_request_target
 
 permissions:
   contents: write
@@ -8,16 +9,15 @@ permissions:
 jobs:
   dependabot:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.user.login == 'dependabot[bot]' && github.repository == 'owner/my_repo'
+    if: github.actor == 'dependabot[bot]' && github.repository == 'andy1uu/andyluu.vercel.app'
     steps:
-      - name: Dependabot metadata
+      - name: Fetch metadata
         id: metadata
-        uses: dependabot/fetch-metadata@08eff52bf64351f401fb50d4972fa95b9f2c2d1b
+        uses: dependabot/fetch-metadata@v1
+
+      - name: Auto-merge PR
+        if: steps.metadata.outputs.update-type != 'version-update:semver-major'
+        uses: pascalgn/automerge-action@v0.15.3
         with:
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - name: Enable auto-merge for Dependabot PRs
-        if: contains(steps.metadata.outputs.dependency-names, 'my-dependency') && steps.metadata.outputs.update-type == 'version-update:semver-patch'
-        run: gh pr merge --auto --merge "$PR_URL"
-        env:
-          PR_URL: ${{github.event.pull_request.html_url}}
-          GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          merge-method: squash
