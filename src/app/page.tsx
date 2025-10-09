@@ -41,8 +41,8 @@ const socialLinks = [
 
 const Home = () => (
   <section className="Homepage flex flex-grow">
-    <div className="Homepage-container flex flex-col xl:flex-row w-full gap-12 xl:w-9/10 xl:mx-auto">
-      <div className="Homepage-textAndSocials align-self-center flex flex-col gap-12 w-full px-16 pt-16 xl:my-auto xl:w-1/2">
+    <div className="Homepage-container flex flex-col xl:flex-row w-full gap-12 p-20 xl:w-9/10 xl:mx-auto">
+      <div className="Homepage-textAndSocials align-self-center flex flex-col gap-12 w-full xl:my-auto xl:w-1/2">
         <motion.p
           variants={{
             hidden: { opacity: 0, x: -100 },

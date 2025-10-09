@@ -19,20 +19,20 @@ const Education = async () => {
   return (
     <section className="Education flex flex-grow">
       <div className="Education-container flex flex-col px-16 pt-16 w-full gap-4">
-      {education.map((edu) => (
-        <EducationCard
-          key={edu._id.toString()}
-          institution={edu.institution}
-          degreeType={edu.degreeType}
-          gpa={edu.gpa}
-          location={edu.location}
-          major={edu.major}
-          courseWork={edu.courseWork}
-          extracirriculars={edu.extracirriculars}
-          endTime={edu.endTime}
-          startTime={edu.startTime}
-        />
-      ))}
+        {education.map((edu) => (
+          <EducationCard
+            key={edu._id.toString()}
+            institution={edu.institution}
+            degreeType={edu.degreeType}
+            gpa={edu.gpa}
+            location={edu.location}
+            major={edu.major}
+            courseWork={edu.courseWork}
+            extracirriculars={edu.extracirriculars}
+            endTime={edu.endTime}
+            startTime={edu.startTime}
+          />
+        ))}
       </div>
     </section>
   );
