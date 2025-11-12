@@ -4333,12 +4333,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^19.2.0":
-  version: 19.2.0
-  resolution: "@types/react@npm:19.2.0"
+"@types/react@npm:^19.2.4":
+  version: 19.2.4
+  resolution: "@types/react@npm:19.2.4"
   dependencies:
     csstype: "npm:^3.0.2"
-  checksum: 10c0/a280e146df2abd3b06eaa2f5332dade9f7ebe916334a40699ee11139c5f22aeb49b5b78b6de8c55b53ef2fa94285e1bc2feaf4fbce6fe259a7de92dc1bf67b17
+  checksum: 10c0/c878262c4bce047e53a44ef644088fce359ebdfdca7060a4ac1717c8362563b9506a7ebae145977836e95d5948b8f8b426dcd516044c3a3c0563a6f1b60408ce
   languageName: node
   linkType: hard
 
@@ -6284,7 +6284,7 @@ __metadata:
     "@tailwindcss/postcss": "npm:^4.1.14"
     "@types/eslint-plugin-tailwindcss": "npm:^3.17.0"
     "@types/node": "npm:^24.7.0"
-    "@types/react": "npm:^19.2.0"
+    "@types/react": "npm:^19.2.4"
     "@types/react-dom": "npm:^19.2.0"
     "@typescript-eslint/eslint-plugin": "npm:^8.46.0"
     "@typescript-eslint/parser": "npm:^8.46.0"
