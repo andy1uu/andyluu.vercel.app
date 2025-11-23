@@ -7,7 +7,7 @@ version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
-    open-pull-requests-limit: 25
+    open-pull-requests-limit: 5
     schedule:
       interval: "daily"
     assignees:
@@ -18,7 +18,7 @@ updates:
       include: "scope"
   - package-ecosystem: "github-actions" # See documentation for possible values
     directory: "/" # Location of package manifests
-    open-pull-requests-limit: 25
+    open-pull-requests-limit: 5
     schedule:
       interval: "daily"
     assignees:
