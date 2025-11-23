@@ -22,12 +22,6 @@ const navBarLinks = [
     icon: <MdHome size={iconSize} className="my-auto" />,
   },
   {
-    keyProp: "education",
-    label: "Education",
-    link: "/education",
-    icon: <MdOutlineSchool size={iconSize} className="my-auto" />,
-  },
-  {
     keyProp: "experience",
     label: "Experience",
     link: "/experience",
@@ -38,6 +32,12 @@ const navBarLinks = [
     label: "Projects",
     link: "/projects",
     icon: <MdCode size={iconSize} className="my-auto" />,
+  },
+  {
+    keyProp: "education",
+    label: "Education",
+    link: "/education",
+    icon: <MdOutlineSchool size={iconSize} className="my-auto" />,
   },
   {
     keyProp: "pokemon",

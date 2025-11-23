@@ -18,19 +18,22 @@ const Experience = async () => {
 
   return (
     <section className="Experience flex flex-grow">
-      <div className="Experience-container flex flex-col px-16 pt-16 w-full gap-4">
-      {experiences.map((experience) => (
-        <ExperienceCard
-          key={experience._id.toString()}
-          company={experience.company}
-          title={experience.title}
-          location={experience.location}
-          endTime={experience.endTime}
-          startTime={experience.startTime}
-          responsibilities={experience.responsibilities}
-          skills={experience.skills}
-        />
-      ))}
+      <div className="Experience-container flex flex-col w-full p-20 gap-8 xl:w-9/10 xl:mx-auto">
+        <h1 className="Experience-title font-bold text-6xl text-center">
+          Work Experience
+        </h1>
+        {experiences.map((experience) => (
+          <ExperienceCard
+            key={experience._id.toString()}
+            company={experience.company}
+            title={experience.title}
+            location={experience.location}
+            endTime={experience.endTime}
+            startTime={experience.startTime}
+            responsibilities={experience.responsibilities}
+            skills={experience.skills}
+          />
+        ))}
       </div>
     </section>
   );
