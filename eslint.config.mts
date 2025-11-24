@@ -7,11 +7,11 @@ import eslintConfigPrettier from "eslint-config-prettier";
 import eslintPluginPrettier from "eslint-plugin-prettier";
 
 export default defineConfig([
-  { 
-    files: ["**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"], 
-    plugins: { js, prettier: eslintPluginPrettier }, 
-    extends: ["js/recommended"], 
-    languageOptions: { globals: globals.browser } 
+  {
+    files: ["**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"],
+    plugins: { js, prettier: eslintPluginPrettier },
+    extends: ["js/recommended"],
+    languageOptions: { globals: globals.browser }
   },
   tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,
@@ -23,7 +23,7 @@ export default defineConfig([
       },
     },
     rules: {
-      "prettier/prettier": "error", 
+      "prettier/prettier": "error",
       "indent": ["error", 2],
       "@typescript-eslint/consistent-type-definitions": ["error", "type"],
       "@typescript-eslint/array-type": "error",
@@ -44,10 +44,10 @@ export default defineConfig([
       ],
       "@typescript-eslint/no-unused-vars": [
         "warn",
-        { 
-          argsIgnorePattern: "^_", 
-          varsIgnorePattern: "^_", 
-          caughtErrorsIgnorePattern: "^_" 
+        {
+          argsIgnorePattern: "^_",
+          varsIgnorePattern: "^_",
+          caughtErrorsIgnorePattern: "^_"
         }
       ],
       "arrow-body-style": ["error", "as-needed"],

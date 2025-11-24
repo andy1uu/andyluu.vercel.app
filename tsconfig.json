@@ -23,7 +23,7 @@
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "jsx": "preserve", // For React 17+ (use "react" for older versions)
+    "jsx": "react-jsx", // For React 17+ (use "react" for older versions)
     "strict": true,
     "module": "ESNext",
     "target": "ES6",
@@ -35,7 +35,8 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts"
   ],
   "exclude": [
     "node_modules",
