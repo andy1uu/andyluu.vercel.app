@@ -31,7 +31,7 @@
     "@types/eslint-plugin-tailwindcss": "^3.17.0",
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.6",
-    "@types/react-dom": "^19.2.0",
+    "@types/react-dom": "^19.2.3",
     "@typescript-eslint/eslint-plugin": "^8.47.0",
     "@typescript-eslint/parser": "^8.47.0",
     "autoprefixer": "^10.4.21",
