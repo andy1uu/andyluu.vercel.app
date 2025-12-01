@@ -4782,12 +4782,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/speed-insights@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "@vercel/speed-insights@npm:1.2.0"
+"@vercel/speed-insights@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "@vercel/speed-insights@npm:1.3.0"
   peerDependencies:
     "@sveltejs/kit": ^1 || ^2
     next: ">= 13"
+    nuxt: ">= 3"
     react: ^18 || ^19 || ^19.0.0-rc
     svelte: ">= 4"
     vue: ^3
@@ -4805,7 +4806,7 @@ __metadata:
       optional: true
     vue-router:
       optional: true
-  checksum: 10/3c453bd5b21a4e43e1810efbc51f0f0d0f91c7a934a024b4c4cd80d6c31960f7376692667628dd544aab1e42b76d65777ec419ef4e2f7e8c97091c5630872fb8
+  checksum: 10/92f38db335b0805e40796e8a1e92fcb8aebba298002210b01c5c8f424ffee3bc95cea93f03eedcc8be28b5fb184bc9231c3c42cb6ae5ff8365c3cd7415c84028
   languageName: node
   linkType: hard
 
@@ -4854,7 +4855,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:^8.47.0"
     "@typescript-eslint/parser": "npm:^8.47.0"
     "@vercel/analytics": "npm:^1.5.0"
-    "@vercel/speed-insights": "npm:^1.2.0"
+    "@vercel/speed-insights": "npm:^1.3.0"
     autoprefixer: "npm:^10.4.21"
     axios: "npm:^1.13.2"
     axios-cache-interceptor: "npm:^1.8.3"
