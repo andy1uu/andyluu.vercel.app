@@ -4992,7 +4992,7 @@ __metadata:
     "@vercel/speed-insights": "npm:^1.3.1"
     autoprefixer: "npm:^10.4.23"
     axios: "npm:^1.13.2"
-    axios-cache-interceptor: "npm:^1.9.0"
+    axios-cache-interceptor: "npm:^1.9.1"
     eslint: "npm:^9.39.2"
     eslint-config-next: "npm:16.0.10"
     eslint-config-prettier: "npm:^10.1.8"
@@ -5210,17 +5210,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios-cache-interceptor@npm:^1.9.0":
-  version: 1.9.0
-  resolution: "axios-cache-interceptor@npm:1.9.0"
+"axios-cache-interceptor@npm:^1.9.1":
+  version: 1.9.1
+  resolution: "axios-cache-interceptor@npm:1.9.1"
   dependencies:
-    cache-parser: "npm:1.2.6"
-    fast-defer: "npm:1.1.9"
-    object-code: "npm:1.3.4"
+    cache-parser: "npm:^1.2.6"
+    fast-defer: "npm:^1.1.9"
+    object-code: "npm:^2.0.0"
     try: "npm:^1.0.3"
   peerDependencies:
     axios: ^1
-  checksum: 10/51bd47f7498beaa1c4dd5a3bc173fab1a061c05aba7cf18622cb4e0258dab57a5ad5bbd9d70eb1a6144d5faffcad484be2971b90daed2c069fb1017109b1e2d1
+  checksum: 10/1988c885328ac5ec6a54ff40bc71230626eea922a891b238ff36d8852f3cd860d19ac84e2e30f84573788a8a9f506fe317d40287c5f525045634d18c52f1a39a
   languageName: node
   linkType: hard
 
@@ -5332,7 +5332,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cache-parser@npm:1.2.6":
+"cache-parser@npm:^1.2.6":
   version: 1.2.6
   resolution: "cache-parser@npm:1.2.6"
   checksum: 10/e40ab0d8677d58873c71cd602750a8d85566104b9b45d6e216125009a27f28c3bd04bdeb4bb3a0afa48da401197e6dd6aa291e9b71493b8c05b3e90154dc98f5
@@ -6171,7 +6171,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-defer@npm:1.1.9":
+"fast-defer@npm:^1.1.9":
   version: 1.1.9
   resolution: "fast-defer@npm:1.1.9"
   checksum: 10/9aea55eccc52046e95d430d0dabae1b49ead18ad5d911c9e3a504052086b54845d9b53ec2b4291831f06dbebd3223d2c12f98ad3242dd7dbd2894c4c8fbb47f8
@@ -7481,10 +7481,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"object-code@npm:1.3.4":
-  version: 1.3.4
-  resolution: "object-code@npm:1.3.4"
-  checksum: 10/d8d21da14479b1c41d9113a9a6f2198d2989e7649df97d4ee118831bf075cdaef31baadddbde4200cd24a0c4faa76faf6425ab5bc96df3a83f25a6b150a69f11
+"object-code@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "object-code@npm:2.0.0"
+  checksum: 10/fc70faec7cc2370e64df1373fae146f061881d106d94eceb26fc41e64dbb96cb60822db266fc3f0f3e999592816f44b6398029f7c048ed68b7b8d14550096c0c
   languageName: node
   linkType: hard
 
