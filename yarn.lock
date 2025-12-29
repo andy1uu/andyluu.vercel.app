@@ -5076,7 +5076,7 @@ __metadata:
     "@vercel/speed-insights": "npm:^1.3.1"
     autoprefixer: "npm:^10.4.23"
     axios: "npm:^1.13.2"
-    axios-cache-interceptor: "npm:^1.10.0"
+    axios-cache-interceptor: "npm:^1.11.2"
     eslint: "npm:^9.39.2"
     eslint-config-next: "npm:16.1.1"
     eslint-config-prettier: "npm:^10.1.8"
@@ -5294,17 +5294,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios-cache-interceptor@npm:^1.10.0":
-  version: 1.10.0
-  resolution: "axios-cache-interceptor@npm:1.10.0"
+"axios-cache-interceptor@npm:^1.11.2":
+  version: 1.11.2
+  resolution: "axios-cache-interceptor@npm:1.11.2"
   dependencies:
     cache-parser: "npm:^1.2.6"
     fast-defer: "npm:^1.1.9"
+    http-vary: "npm:^1.0.3"
     object-code: "npm:^2.0.0"
     try: "npm:^1.0.3"
   peerDependencies:
     axios: ^1
-  checksum: 10/e87315483d284fe4dabe1b63d79a71ff9a680f42a7c77bee63905fcc669489c9a955ae8eee45906a843e5e21c434e5c447ed70d5a18004e1eeac4258291baa21
+  checksum: 10/cdd2721f6bc5e0f9acf115b636ee9dfc462c78e61398bc27cbfb72b1274a4fab485dcbc61b0a07f20c6f8409ff3c38efb64fcafe582e364c3e2c00ae3042479d
   languageName: node
   linkType: hard
 
@@ -6687,6 +6688,13 @@ __metadata:
   dependencies:
     hermes-estree: "npm:0.25.1"
   checksum: 10/805efc05691420f236654349872c70731121791fa54de521c7ee51059eae34f84dd19f22ee846741dcb60372f8fb5335719b96b4ecb010d2aed7d872f2eff9cc
+  languageName: node
+  linkType: hard
+
+"http-vary@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "http-vary@npm:1.0.3"
+  checksum: 10/af13bb1a56b2a0845befd8a6dae656393d7dda01780d0ce73b6887b9925640d92093a6e8e984314c2203c2f37c16f34b56f6b2032bcb254d51f40fa37940429c
   languageName: node
   linkType: hard
 
