@@ -5020,7 +5020,7 @@ __metadata:
     "@typescript-eslint/parser": "npm:^8.56.1"
     "@vercel/analytics": "npm:^1.6.1"
     "@vercel/speed-insights": "npm:^1.3.1"
-    autoprefixer: "npm:^10.4.26"
+    autoprefixer: "npm:^10.4.27"
     axios: "npm:^1.13.5"
     axios-cache-interceptor: "npm:^1.11.4"
     eslint: "npm:^9.39.2"
@@ -5207,9 +5207,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.4.26":
-  version: 10.4.26
-  resolution: "autoprefixer@npm:10.4.26"
+"autoprefixer@npm:^10.4.27":
+  version: 10.4.27
+  resolution: "autoprefixer@npm:10.4.27"
   dependencies:
     browserslist: "npm:^4.28.1"
     caniuse-lite: "npm:^1.0.30001774"
@@ -5220,7 +5220,7 @@ __metadata:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: 10/9a45dca7d0bcfb2c0620b5e2a18169fab29f0a80c8e84ebfc3d5369bdf460fee274861a7fbc3b2573b2777615de71d53fc497f93e7f47e9376c264fa28113dab
+  checksum: 10/5dd9ec57cc1c2af556e10d6c76d082f66d23275671b8b125f6c1d33ba7d9a984d80d3fb4fab7b5e092ac1a34f3aa5a131a392f131f5924029c3cb82faea15b0c
   languageName: node
   linkType: hard
 
