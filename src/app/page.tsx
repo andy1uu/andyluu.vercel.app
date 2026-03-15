@@ -73,7 +73,7 @@ const Home = () => (
           initial="hidden"
           animate="visible"
           transition={{ duration: 1, delay: 0.4, ease: "easeIn" }}
-          className="Homepage-title text-secondary dark:text-tertiary text-center text-4xl font-bold xl:text-left">
+          className="Homepage-title text-secondary dark:text-accent text-center text-4xl font-bold xl:text-left">
           I&apos;m a Software Engineer focusing in HCI & FinTech!
         </motion.h3>
         <motion.p
@@ -96,7 +96,7 @@ const Home = () => (
           initial="hidden"
           animate="visible"
           transition={{ duration: 1, delay: 0.8, ease: "easeIn" }}
-          className="Homepage-social text-secondary dark:text-tertiary flex w-full flex-col gap-8 text-center xl:text-left">
+          className="Homepage-social text-secondary dark:text-accent flex w-full flex-col gap-8 text-center xl:text-left">
           <div className="Homepage-socialTitle text-5xl font-extrabold">
             Lets Connect!
           </div>

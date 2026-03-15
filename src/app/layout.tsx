@@ -38,9 +38,9 @@ const RootLayout = ({
             <Footer />
           </div>
         </main>
+        <Analytics />
+        <SpeedInsights />
       </Providers>
-      <Analytics />
-      <SpeedInsights />
     </body>
   </html>
 );
