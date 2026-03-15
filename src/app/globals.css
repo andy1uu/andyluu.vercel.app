@@ -139,3 +139,5 @@
   --color-accent-900: #d2f9ea;
   --color-accent-950: #e8fcf5;
 }
+
+@custom-variant dark (&:where(.dark, .dark *));
