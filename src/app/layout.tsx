@@ -32,7 +32,7 @@ const RootLayout = ({
       <Providers>
         <main className="flex min-h-screen w-full overflow-x-hidden overflow-y-auto">
           <NavBar />
-          <div className="bg-light dark:bg-dark flex w-full flex-col">
+          <div className="flex w-full flex-col">
             <Header />
             {children}
             <Footer />

@@ -19,10 +19,10 @@ const NavBarLink = ({
       href={link}
       aria-label={label}
       color="default"
-      className={`group hover:bg-dark dark:hover:bg-light bg-light dark:bg-dark hover:text-tertiary relative flex justify-start gap-2 rounded-full p-3 shadow-md transition-all ${pathname === link && "bg-light dark:bg-dark text-secondary dark:text-tertiary"}`}>
+      className={`group bg-background hover:text-tertiary relative flex justify-start gap-2 rounded-full p-3 shadow-md transition-all ${pathname === link && "text-primary"}`}>
       {icon}
 
-      <p className="bg-dark absolute left-16 w-auto min-w-max origin-left scale-0 rounded-md p-2 shadow-md transition-all duration-100 group-hover:scale-100">
+      <p className="bg-dark absolute top-1.5 left-16 w-auto min-w-max origin-left scale-0 rounded-md p-2 shadow-md transition-all duration-100 group-hover:scale-100">
         {label}
       </p>
     </a>

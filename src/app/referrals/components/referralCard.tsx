@@ -17,9 +17,7 @@ const ReferralCard: React.FC<Referral> = ({
       height={189}
     />
     <div className="flex flex-col gap-2 lg:w-3/4">
-      <h2 className="text-primary dark:text-tertiary text-2xl font-bold">
-        {name}
-      </h2>
+      <h2 className="text-primary text-2xl font-bold">{name}</h2>
       <h3 className="text-xl">
         Referral Link: <a href={link}>{link}</a>
       </h3>

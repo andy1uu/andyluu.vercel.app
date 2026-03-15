@@ -16,9 +16,7 @@ const ProjectCard: React.FC<Project> = ({
     </div>
 
     <div className="flex w-full flex-col gap-1 lg:w-4/5">
-      <h2 className="text-primary dark:text-tertiary text-2xl font-bold">
-        {name}
-      </h2>
+      <h2 className="text-primary text-2xl font-bold">{name}</h2>
       <p className="block lg:hidden">
         {startDate} - {endDate}
       </p>

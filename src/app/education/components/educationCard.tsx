@@ -19,7 +19,7 @@ const EducationCard: React.FC<Education> = ({
     </div>
 
     <div className="flex w-full flex-col gap-1 lg:w-4/5">
-      <h2 className="text-primary dark:text-tertiary text-2xl font-bold">
+      <h2 className="text-primary text-2xl font-bold">
         {degreeType} in {major}
       </h2>
       <h3 className="text-xl">{institution}</h3>

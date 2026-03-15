@@ -50,7 +50,7 @@ const ThemeSwitcher = () => {
         onClick={() => setTheme("light")}
         aria-label="Light"
         className={`group bg-primary relative flex justify-start gap-2 rounded-full p-2 transition-all hover:rounded-md`}>
-        <MdOutlineLightMode size={28} className="text-light my-auto" />
+        <MdOutlineLightMode size={28} className="my-auto" />
       </button>
     );
   }
@@ -61,7 +61,7 @@ const ThemeSwitcher = () => {
         onClick={() => setTheme("dark")}
         aria-label="Dark"
         className={`group bg-primary relative flex justify-start gap-2 rounded-full p-2 hover:rounded-md`}>
-        <MdOutlineDarkMode size={28} className="text-dark my-auto" />
+        <MdOutlineDarkMode size={28} className="my-auto" />
       </button>
     );
   }

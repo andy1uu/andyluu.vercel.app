@@ -2,7 +2,7 @@ import React from "react";
 import ThemeSwitcher from "./ThemeSwitcher";
 
 const Header = () => (
-  <header className="Header text-dark dark:text-light flex h-16 w-full items-center justify-center px-8 py-2 sm:justify-between">
+  <header className="Header flex h-16 w-full items-center justify-center px-8 py-2 sm:justify-between">
     <h1 className="text-primary hidden text-3xl font-bold sm:block">
       Andy Luu
     </h1>

@@ -19,9 +19,7 @@ const ExperienceCard: React.FC<Experience> = ({
     </div>
 
     <div className="flex w-full flex-col gap-1 lg:w-4/5">
-      <h2 className="text-primary dark:text-tertiary text-2xl font-bold">
-        {title}
-      </h2>
+      <h2 className="text-primary text-2xl font-bold">{title}</h2>
       <h3 className="text-xl">{company}</h3>
       <p>{location}</p>
       <p className="block lg:hidden">
