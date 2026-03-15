@@ -1,10 +1,5 @@
 import { ObjectId } from "mongodb";
 
-type Extracirricular = {
-  name: string;
-  affiliation: string;
-};
-
 type Course = {
   name: string;
   professor: string;
@@ -23,7 +18,7 @@ export type Education = {
   location: string;
   major: string;
   courseWork: CourseWork[];
-  extracirriculars: Extracirricular[];
-  endTime: string;
-  startTime: string;
+  activities: string[];
+  endDate: string;
+  startDate: string;
 };

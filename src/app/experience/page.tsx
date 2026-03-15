@@ -17,9 +17,9 @@ const Experience = async () => {
   const experiences: Experience[] = await getData();
 
   return (
-    <section className="Experience flex flex-grow">
-      <div className="Experience-container flex flex-col w-full p-20 gap-8 xl:w-9/10 xl:mx-auto">
-        <h1 className="Experience-title font-bold text-6xl text-center">
+    <section className="Experience flex grow">
+      <div className="Experience-container flex w-full flex-col gap-8 p-20 xl:mx-auto xl:w-9/10">
+        <h1 className="Experience-title text-center text-6xl font-bold">
           Work Experience
         </h1>
         {experiences.map((experience) => (
@@ -28,10 +28,11 @@ const Experience = async () => {
             company={experience.company}
             title={experience.title}
             location={experience.location}
-            endTime={experience.endTime}
-            startTime={experience.startTime}
+            endDate={experience.endDate}
+            startDate={experience.startDate}
             responsibilities={experience.responsibilities}
             skills={experience.skills}
+            _id={experience._id}
           />
         ))}
       </div>

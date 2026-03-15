@@ -1,16 +1,41 @@
 import React from "react";
 import type { Metadata } from "next";
+import ProjectsAPI from "../api/projects/api";
+import type { Project } from "./util/interfaces";
+import ProjectCard from "./components/projectCard";
+
+async function getData() {
+  return await ProjectsAPI.getProjects().then((response) => response.data);
+}
 
 export const metadata: Metadata = {
-  title: "Create Next App",
-  description: "This is a base site for Andy to create his websites.",
+  title: "Andy Luu's Work Experience",
+  description: "These are the companies that Andy has worked at.",
 };
-const Projects = () => (
-  <section className="About flex min-h-screen w-full items-center justify-center bg-light dark:bg-dark">
-    <h1 className="Homepage-text text-8xl text-center font-bold text-dark dark:text-light">
-      Projects Page (Coming Soon)
-    </h1>
-  </section>
-);
+
+const Projects = async () => {
+  const projects: Project[] = await getData();
+
+  return (
+    <section className="Projects flex grow">
+      <div className="Projects-container flex w-full flex-col gap-8 p-20 xl:mx-auto xl:w-9/10">
+        <h1 className="Projects-title text-center text-6xl font-bold">
+          Projects
+        </h1>
+        {projects.map((project) => (
+          <ProjectCard
+            key={project._id.toString()}
+            name={project.name}
+            endDate={project.endDate}
+            startDate={project.startDate}
+            description={project.description}
+            contributors={project.contributors}
+            _id={project._id}
+          />
+        ))}
+      </div>
+    </section>
+  );
+};
 
 export default Projects;

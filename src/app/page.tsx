@@ -41,8 +41,8 @@ const socialLinks = [
 
 const Home = () => (
   <section className="Homepage flex flex-grow">
-    <div className="Homepage-container flex flex-col xl:flex-row w-full gap-12 p-20 xl:w-9/10 xl:mx-auto">
-      <div className="Homepage-textAndSocials align-self-center flex flex-col gap-12 w-full xl:my-auto xl:w-1/2">
+    <div className="Homepage-container flex w-full flex-col gap-12 p-20 xl:mx-auto xl:w-9/10 xl:flex-row">
+      <div className="Homepage-textAndSocials align-self-center flex w-full flex-col gap-12 xl:my-auto xl:w-1/2">
         <motion.p
           variants={{
             hidden: { opacity: 0, x: -100 },
@@ -51,7 +51,7 @@ const Home = () => (
           initial="hidden"
           animate="visible"
           transition={{ duration: 1, ease: "easeIn" }}
-          className="Homepage-begin font-semibold text-4xl text-center xl:text-left">
+          className="Homepage-begin text-center text-4xl font-semibold xl:text-left">
           Hello World! I&apos;m
         </motion.p>
         <motion.h2
@@ -62,7 +62,7 @@ const Home = () => (
           initial="hidden"
           animate="visible"
           transition={{ duration: 1, delay: 0.2, ease: "easeIn" }}
-          className="Homepage-name font-extrabold text-primary text-7xl text-center xl:text-left">
+          className="Homepage-name text-primary text-center text-7xl font-extrabold xl:text-left">
           <a href="/">Andy Luu</a>
         </motion.h2>
         <motion.h3
@@ -73,7 +73,7 @@ const Home = () => (
           initial="hidden"
           animate="visible"
           transition={{ duration: 1, delay: 0.4, ease: "easeIn" }}
-          className="Homepage-title font-bold text-4xl text-secondary dark:text-tertiary text-center xl:text-left">
+          className="Homepage-title text-secondary dark:text-tertiary text-center text-4xl font-bold xl:text-left">
           I&apos;m a Software Engineer focusing in HCI & FinTech!
         </motion.h3>
         <motion.p
@@ -84,7 +84,7 @@ const Home = () => (
           initial="hidden"
           animate="visible"
           transition={{ duration: 1, delay: 0.6, ease: "easeIn" }}
-          className="Homepage-description font-semibold text-2xl text-center xl:text-left">
+          className="Homepage-description text-center text-2xl font-semibold xl:text-left">
           I design digital interfaces for all different types of software while
           researching novel HCI solutions.
         </motion.p>
@@ -96,11 +96,11 @@ const Home = () => (
           initial="hidden"
           animate="visible"
           transition={{ duration: 1, delay: 0.8, ease: "easeIn" }}
-          className="Homepage-social w-full text-center xl:text-left flex flex-col gap-8 text-secondary dark:text-tertiary">
-          <div className="Homepage-socialTitle font-extrabold text-5xl">
+          className="Homepage-social text-secondary dark:text-tertiary flex w-full flex-col gap-8 text-center xl:text-left">
+          <div className="Homepage-socialTitle text-5xl font-extrabold">
             Lets Connect!
           </div>
-          <div className="Homepage-socialLinks flex flex-wrap justify-center gap-2 w-fit mx-auto xl:ml-0">
+          <div className="Homepage-socialLinks mx-auto flex w-fit flex-wrap justify-center gap-2 xl:ml-0">
             {socialLinks.map((socialLink) => (
               <SocialLink
                 key={socialLink.keyProp}
@@ -119,13 +119,13 @@ const Home = () => (
         initial="hidden"
         animate="visible"
         transition={{ duration: 1, ease: "easeIn" }}
-        className="Homepage-imageContainer xl:my-auto w-full xl:w-1/2">
+        className="Homepage-imageContainer w-full xl:my-auto xl:w-1/2">
         <Image
           src="/Profile_Luu_Andy_Square.jpg"
           width={2048}
           height={2048}
           alt="Picture of Andy Luu"
-          className="Homepage-image rounded-full w-75 h-75 sm:w-100 sm:h-100 mx-auto xl:w-125 xl:h-125 2xl:w-175 2xl:h-175 border-8 border-primary"
+          className="Homepage-image border-primary mx-auto h-75 w-75 rounded-full border-8 sm:h-100 sm:w-100 xl:h-125 xl:w-125 2xl:h-175 2xl:w-175"
         />
       </motion.div>
     </div>

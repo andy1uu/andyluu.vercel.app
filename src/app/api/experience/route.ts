@@ -34,6 +34,7 @@ export const GET = async (_request: NextRequest, _response: NextResponse) => {
       },
     });
   } catch (_error) {
+    console.log(_error);
     return new NextResponse(
       "An Internal Server Error has occured with the application.",
       {

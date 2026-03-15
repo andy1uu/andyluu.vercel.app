@@ -1,12 +1,11 @@
 import { ObjectId } from "mongodb";
 
-export type Experience = {
+export type Project = {
   _id: ObjectId;
-  company: string;
-  title: string;
-  location: string;
+  name: string;
   endDate: string;
   startDate: string;
-  responsibilities: string[];
+  description: string[];
+  contributors: string[];
   skills: string[];
 };

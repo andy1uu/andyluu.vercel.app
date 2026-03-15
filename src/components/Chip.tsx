@@ -1,7 +1,7 @@
 import React from "react";
 
 const Chip = ({ text }: { text: string }) => (
-  <div className="bg-primary py-1 px-2 text-md rounded-full font-medium">
+  <div className="bg-primary text-md rounded-full px-2 py-1 font-medium">
     {text}
   </div>
 );

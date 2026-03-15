@@ -60,8 +60,8 @@ const navBarLinks = [
 ];
 
 const NavBar = () => (
-  <div className="NavBar fixed flex bg-primary top-1/2 -translate-y-1/2 rounded-full left-1">
-    <div className="flex flex-col gap-2 p-1 my-auto">
+  <div className="NavBar bg-primary fixed top-1/2 left-1 flex -translate-y-1/2 rounded-full">
+    <div className="my-auto flex flex-col gap-2 p-1">
       {navBarLinks.map((navBarLink) => (
         <NavBarLink
           key={navBarLink.keyProp}
