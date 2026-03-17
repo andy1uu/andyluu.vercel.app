@@ -19,9 +19,6 @@ const Education = async () => {
   return (
     <section className="Education flex grow">
       <div className="Education-container flex w-full flex-col gap-8 p-20 xl:mx-auto xl:w-9/10">
-        <h1 className="Education-title text-center text-6xl font-bold">
-          Education
-        </h1>
         {education.map((edu) => (
           <EducationCard
             key={edu._id.toString()}

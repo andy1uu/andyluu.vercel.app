@@ -19,9 +19,6 @@ const Experience = async () => {
   return (
     <section className="Experience flex grow">
       <div className="Experience-container flex w-full flex-col gap-8 p-20 xl:mx-auto xl:w-9/10">
-        <h1 className="Experience-title text-center text-6xl font-bold">
-          Work Experience
-        </h1>
         {experiences.map((experience) => (
           <ExperienceCard
             key={experience._id.toString()}

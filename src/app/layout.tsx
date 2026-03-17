@@ -30,7 +30,7 @@ const RootLayout = ({
   <html lang="en">
     <body className={comfortaa.className}>
       <Providers>
-        <main className="flex min-h-screen w-full overflow-x-hidden overflow-y-auto">
+        <main className="bg-background text-text flex min-h-screen w-full overflow-x-hidden overflow-y-auto">
           <NavBar />
           <div className="flex w-full flex-col">
             <Header />

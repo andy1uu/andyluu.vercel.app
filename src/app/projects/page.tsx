@@ -19,9 +19,6 @@ const Projects = async () => {
   return (
     <section className="Projects flex grow">
       <div className="Projects-container flex w-full flex-col gap-8 p-20 xl:mx-auto xl:w-9/10">
-        <h1 className="Projects-title text-center text-6xl font-bold">
-          Projects
-        </h1>
         {projects.map((project) => (
           <ProjectCard
             key={project._id.toString()}
