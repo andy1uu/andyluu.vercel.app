@@ -5509,7 +5509,7 @@ __metadata:
     globals: "npm:^17.7.0"
     jiti: "npm:^2.7.0"
     limiter: "npm:^3.0.0"
-    mongodb: "npm:^7.3.0"
+    mongodb: "npm:^7.4.0"
     next: "npm:^16.2.9"
     next-themes: "npm:^0.4.6"
     pokenode-ts: "npm:^1.20.0"
@@ -7849,9 +7849,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mongodb@npm:^7.3.0":
-  version: 7.3.0
-  resolution: "mongodb@npm:7.3.0"
+"mongodb@npm:^7.4.0":
+  version: 7.4.0
+  resolution: "mongodb@npm:7.4.0"
   dependencies:
     "@mongodb-js/saslprep": "npm:^1.3.0"
     bson: "npm:^7.2.0"
@@ -7879,7 +7879,7 @@ __metadata:
       optional: true
     socks:
       optional: true
-  checksum: 10/3c4ec8fcbbc9e3c2594b0459d38b3a5b2b2599b2ea3bd96b849c2b3774c2adbc56419a3f766b9c3454fa5d9c237c41a6f860bcbd87f9101eccac76dd391fc83e
+  checksum: 10/f377662d72acc53c629685f34ea77cdef155c540b22139484de2089d5c4a56b30d6c07d76ef14788d89faa3440f271fb1b669ebefac6ee8c617aa03a76eb8387
   languageName: node
   linkType: hard
 
