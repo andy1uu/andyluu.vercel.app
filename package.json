@@ -15,7 +15,7 @@
     "@vercel/speed-insights": "^2.0.0",
     "axios": "^1.18.1",
     "axios-cache-interceptor": "^1.12.0",
-    "framer-motion": "^12.42.0",
+    "framer-motion": "^12.42.2",
     "limiter": "^3.0.0",
     "mongodb": "^7.4.0",
     "next": "^16.2.9",
