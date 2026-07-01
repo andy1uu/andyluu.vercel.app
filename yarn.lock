@@ -5504,7 +5504,7 @@ __metadata:
     eslint-config-prettier: "npm:^10.1.8"
     eslint-plugin-prettier: "npm:^5.5.6"
     eslint-plugin-react: "npm:^7.37.5"
-    eslint-plugin-tailwindcss: "npm:^4.0.4"
+    eslint-plugin-tailwindcss: "npm:^4.0.5"
     framer-motion: "npm:^12.42.2"
     globals: "npm:^17.7.0"
     jiti: "npm:^2.7.0"
@@ -6568,9 +6568,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-tailwindcss@npm:^4.0.4":
-  version: 4.0.4
-  resolution: "eslint-plugin-tailwindcss@npm:4.0.4"
+"eslint-plugin-tailwindcss@npm:^4.0.5":
+  version: 4.0.5
+  resolution: "eslint-plugin-tailwindcss@npm:4.0.5"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.37.0"
     postcss: "npm:^8.4.4"
@@ -6578,11 +6578,12 @@ __metadata:
     synckit: "npm:^0.11.11"
     tailwind-api-utils: "npm:^1.0.3"
   peerDependencies:
+    eslint: ^9.0.0 || ^10.0.0
     tailwindcss: ^4.0.0
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10/0e847ce4fa314150e999643f6db43799806c1c0b6e71083a936c0bfcd254941f0ed6e1088e95cab7161b377622b9f18ce0f0081b09037e44a9112c98c634b9e7
+  checksum: 10/8c6d38cf4c72be2e11e515f0c39877c39a51dbbc4ee1d4910e9d20b9fdb2833bb802dfec88db107fc9fda6f62ea6222684d7d3890d4d6149b741a3dbe58af87f
   languageName: node
   linkType: hard
 
