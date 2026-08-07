@@ -293,7 +293,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint-community/eslint-utils@npm:^4.8.0, @eslint-community/eslint-utils@npm:^4.9.1":
+"@eslint-community/eslint-utils@npm:4.9.1, @eslint-community/eslint-utils@npm:^4.8.0, @eslint-community/eslint-utils@npm:^4.9.1":
   version: 4.9.1
   resolution: "@eslint-community/eslint-utils@npm:4.9.1"
   dependencies:
@@ -819,12 +819,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:16.2.12":
-  version: 16.2.12
-  resolution: "@next/eslint-plugin-next@npm:16.2.12"
+"@next/eslint-plugin-next@npm:16.3.0":
+  version: 16.3.0
+  resolution: "@next/eslint-plugin-next@npm:16.3.0"
   dependencies:
+    "@eslint-community/eslint-utils": "npm:4.9.1"
     fast-glob: "npm:3.3.1"
-  checksum: 10/ec924a62632287ff5205f22768b7b3457bdd5ad95bb5172c62dc83d297520be0dd35e6b56a8ede00963b96564cd8eed77b855f097aab0d1ed4ac016fde93fea4
+  checksum: 10/249b1eeb8853ed8bd378e89f30b7aa96723e567280a1711d443cb195fefa87049e1584a7326e4ee37ba4a7c979d1b16e41cf53b0232f42d53cf1781e5e19b421
   languageName: node
   linkType: hard
 
@@ -5518,7 +5519,7 @@ __metadata:
     axios: "npm:^1.19.0"
     axios-cache-interceptor: "npm:^1.12.3"
     eslint: "npm:^10.8.0"
-    eslint-config-next: "npm:16.2.12"
+    eslint-config-next: "npm:16.3.0"
     eslint-config-prettier: "npm:^10.1.8"
     eslint-plugin-prettier: "npm:^5.5.6"
     eslint-plugin-react: "npm:^7.37.5"
@@ -6411,11 +6412,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:16.2.12":
-  version: 16.2.12
-  resolution: "eslint-config-next@npm:16.2.12"
+"eslint-config-next@npm:16.3.0":
+  version: 16.3.0
+  resolution: "eslint-config-next@npm:16.3.0"
   dependencies:
-    "@next/eslint-plugin-next": "npm:16.2.12"
+    "@next/eslint-plugin-next": "npm:16.3.0"
     eslint-import-resolver-node: "npm:^0.3.6"
     eslint-import-resolver-typescript: "npm:^3.5.2"
     eslint-plugin-import: "npm:^2.32.0"
@@ -6430,7 +6431,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10/8ce48b8ce84ad9ad999acadba3ff193b83bad9ead0799ce044713699aa0d91c091a3900f05de1a53db26c946607934454770ba9ad0c7ec3665bb8897036cb2fd
+  checksum: 10/a77e9a5d6c391ffb50bf861326f74912036ff6512d1c3db669aa09fe74fa3ff539fc4c5f82809dbe39c80a1ca04ab038016db36273b1bf0bb4e889cf2408780b
   languageName: node
   linkType: hard
 
