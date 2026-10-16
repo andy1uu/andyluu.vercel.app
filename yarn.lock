@@ -5662,7 +5662,7 @@ __metadata:
     mongodb: "npm:^7.7.0"
     next: "npm:^16.4.0"
     next-themes: "npm:^0.4.6"
-    pokenode-ts: "npm:^1.20.0"
+    pokenode-ts: "npm:^4.0.0"
     postcss: "npm:^8.5.30"
     prettier: "npm:^3.9.10"
     prettier-plugin-tailwindcss: "npm:^0.8.1"
@@ -8429,13 +8429,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pokenode-ts@npm:^1.20.0":
-  version: 1.20.0
-  resolution: "pokenode-ts@npm:1.20.0"
-  peerDependencies:
-    axios: ^1.4.0
-    axios-cache-interceptor: ^1.2.0
-  checksum: 10/5640a8a938cbc5b688a81bc078a57ed6ecff10bec80b8be6bd7b1777ef4caf8dbf8b7d5583a1b345d18676acd6caf508ceeb3d8b53dd644ca82c46a7fd58989b
+"pokenode-ts@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "pokenode-ts@npm:4.0.0"
+  checksum: 10/c7b2119b18449025f289ba3e896ab4c3245a5628ecf6412694a0a99e7ba037d084c9a5c26cf596de4c25aed1f19c4ea483128769a8d8ee87f26abad318010e69
   languageName: node
   linkType: hard
 
