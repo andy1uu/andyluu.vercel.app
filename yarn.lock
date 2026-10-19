@@ -5648,7 +5648,7 @@ __metadata:
     "@vercel/speed-insights": "npm:^2.0.0"
     autoprefixer: "npm:^10.6.1"
     axios: "npm:^1.20.0"
-    axios-cache-interceptor: "npm:^1.12.3"
+    axios-cache-interceptor: "npm:^1.13.0"
     eslint: "npm:^10.12.0"
     eslint-config-next: "npm:16.4.0"
     eslint-config-prettier: "npm:^10.1.8"
@@ -5859,9 +5859,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios-cache-interceptor@npm:^1.12.3":
-  version: 1.12.3
-  resolution: "axios-cache-interceptor@npm:1.12.3"
+"axios-cache-interceptor@npm:^1.13.0":
+  version: 1.13.0
+  resolution: "axios-cache-interceptor@npm:1.13.0"
   dependencies:
     cache-parser: "npm:^1.2.6"
     fast-defer: "npm:^1.1.9"
@@ -5870,7 +5870,7 @@ __metadata:
     try: "npm:^1.0.3"
   peerDependencies:
     axios: ^1.19.0
-  checksum: 10/f7e1e97b361db7201ce678d28ef4528c6b8bc7814096c5f2c736448f9c4986dad0fe132e13e5d99332a30bc1fb2112bf3adda7bca2713405a4c1cbc1a1c5694b
+  checksum: 10/97d020c43f11465628740328dba8cbac9ce276b955cf611089d4e6b4a65e292cf5a2e90a2f835a8e4320ad745f7f30a62cb4792c1f84998ef32c178ab480f6aa
   languageName: node
   linkType: hard
 
